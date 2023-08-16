@@ -22,7 +22,7 @@ namespace Weather_Forecast
         private string city;
         public string City{ get => city; set => city = value; }
 
-        // write this to return multiple datas at same time
+        // writed this to return multiple datas at same time
         private string willgive;
         public string Willgive { get => willgive; set => willgive = value; }
         public string Check()
