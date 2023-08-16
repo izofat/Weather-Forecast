@@ -38,7 +38,7 @@ namespace Weather_Forecast
             var temp = xml.Descendants("temperature").ElementAt(0).Attribute("value").Value;
             var humidity = xml.Descendants("humidity").ElementAt(0).Attribute("value").Value;           
             var windspeed = xml.Descendants("speed").ElementAt(0).Attribute("value").Value;
-            // sending datas to print
+            // sending datas to weather class
             var unit = ""; 
             if (willgive == "weather")
             {
